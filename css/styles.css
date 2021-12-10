@@ -1,0 +1,141 @@
+/*navbar*/
+
+.navbar-light {
+    background-color: rgba(201, 89, 14, 0.479) !important;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    background-color: rgba(201, 120, 14, 0.144);
+}
+
+.socialIkon {
+    width: 2rem;
+}
+
+.nav-item {
+    font-size: larger;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat';
+    font-weight: bold;
+  }
+
+  #intro {
+    padding: 10px 0 20px;
+}
+
+/* karusell */
+
+.karusellBild {
+    width: 280px;
+}
+
+.logo, .cultura {
+    width: 250px;
+}
+
+.karusellText {
+    padding: 10px 0px;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23d2aa87' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+    margin-left: -30px;
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23d2aa87' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+    margin-right: -30px;
+}
+
+#carouselExampleIndicators {
+    margin-left: 20%;
+    margin-right: 20%;
+
+  }
+
+.carousel-inner {
+    padding: 2% 7%;
+    height: 550px;
+}
+
+
+/* clothes */
+
+.colored {
+    background-color: rgba(201, 89, 14, 0.342);
+    padding: 5% 10%;
+}
+#nuestros {
+    font-size: 3em;
+}
+
+.img-responsive {
+    padding: 6px 4px;
+}
+
+body.modal-open {
+    height: 100vh;
+    overflow-y: hidden;
+  }
+
+
+/* contact */
+
+#contact {
+    margin: 10%;
+
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+      
+}
+
+
+/* footer */
+
+#footer {
+    background-color: rgba(201, 89, 14, 0.479);
+    margin-top: 40px;
+    padding-top: 50px;
+}
+
+.footer-link {
+    color: #050505;
+  }
+
+.copyright {
+    margin-bottom: 0;
+    color: white;
+    padding-bottom: 60px;
+    padding-top: 20px;
+    font-size: 14px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+  @media (max-width: 570px) {
+    #carouselExampleIndicators {
+        margin-left: 10px;
+        margin-right: 10px;
+    
+      }
+
+  }
